@@ -8,7 +8,7 @@ export const Profile = () => {
                      alt=""/>
             </div>
             <div>
-                ava + description
+                ava + description122
             </div>
             <div>
                 My post
