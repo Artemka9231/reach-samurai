@@ -13,7 +13,7 @@ export const Navbar = () => {
                 <a >Profile</a>
             </div >
             <div className={`${s.item} ${s.active}`}>
-                <a>Message</a>
+                <a>Message1</a>
             </div>
             <div className={s.item}>
                 <a>News</a>
