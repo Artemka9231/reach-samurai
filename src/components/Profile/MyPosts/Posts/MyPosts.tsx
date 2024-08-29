@@ -1,9 +1,10 @@
 import React from "react";
-import './Profile.module.css'
-import s from './Profile.module.css'
+
+import s from './MyPosts.module.css'
+import {Post} from "../Post";
 
 
-export const Profile = () => {
+export const MyPosts = () => {
     return (
         <div className={s.content}>
             <div>
@@ -16,15 +17,13 @@ export const Profile = () => {
             <div>
                 My post
                 <div>
-                    New post
+                    <textarea></textarea>
+                    <button>Add post</button>
                 </div>
                 <div className={s.posts}>
-                    <div className={s.item}>
-                        post1
-                    </div>
-                    <div className={s.item}>
-                        post2
-                    </div>
+                    <Post/>
+                    <Post/>
+                    <Post/>
                 </div>
             </div>
         </div>

@@ -1,0 +1,15 @@
+
+.content {
+    grid-area: c;
+
+}
+
+.item {
+color: greenyellow;
+}
+
+.item img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
