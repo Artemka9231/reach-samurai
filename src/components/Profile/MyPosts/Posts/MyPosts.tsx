@@ -1,7 +1,7 @@
 import React from "react";
 
 import s from './MyPosts.module.css'
-import {Post} from "../Post";
+import {Post} from "./Post";
 
 
 export const MyPosts = () => {
@@ -11,9 +11,7 @@ export const MyPosts = () => {
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROgTx688aeWkqKFT1Nq5gte1kqm71zBxjOLw&s"
                      alt=""/>
             </div>
-            <div>
-                ava + description
-            </div>
+
             <div>
                 My post
                 <div>
