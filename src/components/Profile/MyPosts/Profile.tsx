@@ -4,7 +4,7 @@ import s from './Profile.module.css'
 import {Post} from "./Posts/Post";
 
 
-export const Profile = (pap: any) => {
+export const Profile = () => {
     return (
         <div >
             <div className={s.bcg}>
@@ -12,7 +12,7 @@ export const Profile = (pap: any) => {
             </div>
 
             <div>
-                {pap.message}
+
                 <div>
                     <textarea></textarea>
                     <button>Add post</button>

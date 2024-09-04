@@ -7,10 +7,10 @@ export const Navbar = () => {
     return (
         <nav className={s.nav}>
             <div className={s.item}>
-                <a href='../Profile/MyPosts/Profile.tsx'>Profile</a>
+                <a href='profile'>Profile</a>
             </div>
             <div className={`${s.item} ${s.active}`}>
-                <a href='../Dialogs/Dialogs.tsx'>Message</a>
+                <a href='dialogs'>Message</a>
             </div>
             <div className={s.item}>
                 <a>News</a>
