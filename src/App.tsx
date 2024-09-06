@@ -5,24 +5,30 @@ import {Header} from "./components/Header/Header";
 import {Navbar} from "./components/Navbar/Navbar";
 import {Profile} from "./components/Profile/MyPosts/./Profile";
 import {Dialogs} from "./components/Dialogs/Dialogs";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {News} from "./components/News/News";
+import {Music} from "./components/Music/Music";
+import {Setting} from "./Setting/Setting";
 
 
 const App = (props: any) => {
 
     return (
-
+        <BrowserRouter>
             <div className="app-wrapper">
                 <Header message="Hi brooo"/>
                 <Navbar/>
                 <div className="app-wrapper-content">
-                    <BrowserRouter>
-                    <Route path="/dialogs" component={  Dialogs}/>
-                    <Route path='/profile' component={  Profile}/>
-                    </BrowserRouter>
+                    <Routes>
+                        <Route path="/dialogs" element={<Dialogs />} />
+                        <Route path='/profile' element={<Profile />} />
+                        <Route path='/news' element={<News />} />
+                        <Route path='/music' element={<Music />} />
+                        <Route path='/setting' element={<Setting />} />
+                    </Routes>
                 </div>
             </div>
-
+        </BrowserRouter>
     );
 }
 
