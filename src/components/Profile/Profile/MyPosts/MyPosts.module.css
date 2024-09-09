@@ -1,0 +1,16 @@
+
+
+
+.bcg img{
+    width: 430px;
+    border-radius: 10%;
+}
+
+.posts{
+    color: lightgreen;
+    margin-top: 10px;
+
+}
+.postsBlock{
+    padding: 10px;
+}
