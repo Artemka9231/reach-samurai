@@ -28,8 +28,8 @@ export const MyPosts = (props: any) => {
             </div>
             <div className={s.posts}>
                 {postsElements}
-                {/*<Post message={postsData[0].message} likeCount={postsData[0].likesCount}/>*/}
-                {/*<Post message={postsData[1].message} likeCount={postsData[1].likesCount}/>*/}
+                {/*<Post Message={postsData[0].Message} likeCount={postsData[0].likesCount}/>*/}
+                {/*<Post Message={postsData[1].Message} likeCount={postsData[1].likesCount}/>*/}
 
 
             </div>
